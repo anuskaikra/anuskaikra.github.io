@@ -1,0 +1,80 @@
+body{
+    background-image: url(satin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+.header a {
+  border-style: solid;
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+  }
+  ul {
+    width: auto;
+    text-align: center;
+    margin-top: 6px;
+  }
+
+li {
+    display: inline-block;
+    padding: 5px 40px;
+    text-shadow: currentColor;
+    font-size: 30px;
+    text-decoration: indianred;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-stretch: wider;
+  }
+
+.tabs {
+    position: absolute;
+    padding: 3px;
+    text-align: center;
+}
+
+h1 {
+	  text-align: center;
+	  text-decoration: underline;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    padding-top: 20pt;
+}
+h2 {
+
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+	text-shadow: chocolate;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+table, th, td {
+    min-width: 400pt;
+    border-left-width: 100px;
+    border-right-width: 100px;
+    margin: auto;
+    
+  }
