@@ -1,8 +1,7 @@
 body{
-    background-image: url(satin.png);
+  background-image: url('http://www.zingerbugimages.com/backgrounds/purple_satin_seamless.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     padding:0;
     margin:0;
 }
@@ -14,39 +13,37 @@ body{
     padding: 12px;
     text-decoration: none;
     font-size: 18px; 
-    line-height: 25px;
-    border-radius: 4px;
+    line-height: 20px;
+    border-radius: 3px;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  .column {
-    flex: 50%;
-    padding: 0 4px;
-  }
-  ul {
-    width: auto;
-    text-align: center;
-    margin-top: 6px;
-  }
+header {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  background: #F0D3F7;
+  align-items: center;
+  justify-content: center;
+  top: 5;
+  text-align: center;
+}
 
-li {
-    display: inline-block;
-    padding: 5px 40px;
-    text-shadow: currentColor;
-    font-size: 30px;
-    text-decoration: indianred;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-stretch: wider;
-  }
-
-.tabs {
-    position: absolute;
-    padding: 3px;
-    text-align: center;
+.navLinks {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: none;
+  color: darkorchid;
+  padding: 2vw;
+  align-content: center;
+  text-align: center;
+  font-size: 30pt;
+  font-stretch: wider;
+  font-stretch: extra-expanded;
+}
+a.navLinks:visited {
+  color:darkviolet;
+  align-items: center;
+}
+a.navLinks:hover {
+  color: darkorchid;
 }
 
 h1 {
@@ -63,6 +60,7 @@ h2 {
     color:whitesmoke;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
+    align-items: center;
 }
 h3 {
     text-align: center;
@@ -70,6 +68,11 @@ h3 {
     color: brown;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
+}
+h4{
+  text-align: center;
+  color: darkorchid;
+  font-family: 'Times New Roman', Times, serif;
 }
 table, th, td {
     min-width: 400pt;
