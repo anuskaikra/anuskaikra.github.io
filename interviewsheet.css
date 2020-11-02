@@ -1,0 +1,86 @@
+body{
+    background-image: url('http://www.zingerbugimages.com/backgrounds/stars_background.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+/* Chat containers */
+.container {
+    border: 3px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
+h1 {
+	text-align: center;
+	text-decoration: underline;
+    color: purple;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+h2 {
+
+    text-align: center;
+	text-decoration: underline;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+h3 {
+    text-align: center;
+	text-shadow: chocolate;
+    color: plum;
+    font-family: Helvetica, Arial;
+    font-size: 20px;
+    border-image: 10pt;
+}
+table, th, td {
+    min-width: 400pt;
+    border-left-width: 100px;
+    border-right-width: 100px;
+    margin: auto;
+    
+  }
