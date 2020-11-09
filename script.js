@@ -1,5 +1,5 @@
-let btn1 = document.querySelection('#btn-1');
-let btn2 = document.querySelection('#btn-2');
+let btn1 = document.querySelector('#btn-1');
+let btn2 = document.querySelector('#btn-2');
 
 btn1.addEventListener('click', () =>{
 	document.body.style.backgroundImage = "url(https://media.giphy.com/media/JA8X1yjBnTaZW/giphy.gif)"
