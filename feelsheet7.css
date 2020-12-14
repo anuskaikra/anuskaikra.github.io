@@ -1,0 +1,69 @@
+body {
+    align-self: center;
+    text-align: center;
+    background: linear-gradient(224deg, #e7bed5, #f187ceea, #ad588d, #df2f95);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+div {
+    color: black;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 15px;
+    padding: 20px 20px 20px 20px;
+    position: relative;
+    box-shadow: 0px 1px 5px #999;
+    animation: 10s alternate;
+    
+
+
+}
+h1{
+    font-family: "Sofia", sans-serif;
+    font-size: 60px;
+}
+
+button {
+	box-shadow: 3px 3px 0px 0px #08103f;
+	background:linear-gradient(to bottom, #d141d6 5%, #852454 100%);
+	background-color:#b841a4;
+	border-radius:18px;
+	border:1px solid #a14879;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-style:italic;
+	padding:13px 54px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #c223a8;
+}
+button:hover {
+	background:linear-gradient(to bottom, #a12282 5%, #e05db5 100%);
+	background-color:#d85abd;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+}
