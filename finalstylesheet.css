@@ -1,0 +1,88 @@
+button {
+	box-shadow: 3px 3px 0px 0px #8c5131;
+	background:linear-gradient(to bottom, #e6aace 5%, #e6aa7c 100%);
+	background-color:#e6aace;
+	border-radius:18px;
+	border:1px solid #8c643a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Trebuchet MS;
+	font-size:17px;
+	font-style:italic;
+	padding:13px 54px;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #c26323;
+}
+button:hover {
+	background:linear-gradient(to bottom, #e6aa7c 5%, #e6aace 100%);
+	background-color:#e6aa7c;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+body {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+}
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+  }
+body {
+    background: linear-gradient(224deg, #dba797, #c58177, #896b66, #5b4744);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 7s ease infinite;
+    -moz-animation: AnimationName 7s ease infinite;
+    animation: AnimationName 7s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+a:link {
+    color: rgba(243, 149, 106, 0.925);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:  white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f09787b6;
+    background-color: transparent;
+    font-size: 80px;
+    
+  }
+  a:active {
+    color: #301f1d;
+    background-color: transparent;
+    
+  }
