@@ -1,8 +1,13 @@
-body {
+h1 {
     text-align: center;
     font-family: "Sofia", sans-serif;
-    font-size: 60px;
-    
+    font-size: 75px;
+
+}
+body {
+    text-align: center;
+    font-family: cursive;
+    font-size: 55px;
 }
 .grid-container {
     display: grid;
@@ -36,23 +41,24 @@ body {
     100%{background-position:0% 17%}
 }
 a:link {
-    color: rgba(243, 149, 106, 0.925);
+    color: white;
     background-color: transparent;
     text-decoration: none;
+  }
+
+  a:hover {
+    color: white;
+    background-color: transparent;
+    font-size: 80px;
   }
   a:visited {
     color:  white;
     background-color: transparent;
     text-decoration: none;
   }
-  a:hover {
-    color: #f09787b6;
-    background-color: transparent;
-    font-size: 80px;
     
-  }
   a:active {
-    color: #301f1d;
+    color: white;
     background-color: transparent;
     
   }
