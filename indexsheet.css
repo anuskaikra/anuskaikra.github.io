@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    font-family: "Sofia", sans-serif;
+    font-size: 60px;
+    
+}
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    font-size: 50px;
+    text-align: center;
+  }
+body {
+    background: url(http://www.zingerbugimages.com/backgrounds/red_starry_sky_glitter_background_seamless.gif);
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 17%}
+    50%{background-position:100% 84%}
+    100%{background-position:0% 17%}
+}
+a:link {
+    color: rgba(243, 149, 106, 0.925);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color:  white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #f09787b6;
+    background-color: transparent;
+    font-size: 80px;
+    
+  }
+  a:active {
+    color: #301f1d;
+    background-color: transparent;
+    
+  }
